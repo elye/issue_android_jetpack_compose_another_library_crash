@@ -1,13 +1,12 @@
-package com.example.myapplication.ui.theme
+package com.example.based_lib.theme
 
 import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.material.MaterialTheme
 import androidx.compose.material.darkColors
 import androidx.compose.material.lightColors
 import androidx.compose.runtime.Composable
-import androidx.compose.ui.graphics.BlendMode.Companion.Color
 import androidx.compose.ui.res.colorResource
-import com.example.myapplication.R
+import com.example.based_lib.R
 
 private val DarkColorPalette = darkColors(
     primary = Purple200,
